@@ -1,0 +1,8 @@
+[package]
+name = "api-testing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+validator = { version = "0.19.0", features = ["derive"] }
+hyper = "1.5.1"
