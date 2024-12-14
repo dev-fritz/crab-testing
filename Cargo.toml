@@ -1,15 +1,6 @@
 [package]
 name = "crab-testing"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 
 [dependencies]
-
-[workspace]
-members = [
-    "api-testing",
-    "ci",
-    "integration-testing",
-    "ssh",
-    "ui-testing"
-]
